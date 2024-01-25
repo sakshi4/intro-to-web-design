@@ -2,65 +2,93 @@
 <html>
   <head>
     <title>Home Page</title>
+    <!--Internal CSS
+    <style>
+      h2 {
+        color: darkslategrey;
+        text-decoration: underline;
+      }
+      h1,
+      h2 {
+        font-style: italic;
+      }
+      p {
+        font-family: "Courier New", Courier, monospace;
+      }
+    </style>-->
+    <!--External Style sheet-->
+    <link rel="stylesheet " href="stylesheets/site.css" />
+
   </head>
   <body>
-    <!--Anchor tags used for internal navigation-->
-    <a href="index.html">Home</a>
-    <a href="about_us.html">About Us</a>
-    <a href="contact_us.html">Contact us</a>
-    <h1 style="color:brown;">Guide to become an Architect</h1>
-    <hr />
-    <!--Examples of heading tags-->
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+    <div id="header">
+      <p>Weather Update</p>
+    </div>
+    <div id="nav">
+      <!--Anchor tags used for internal navigation-->
+      <a href="index.html">Home</a>
+      <a href="about_us.html">About Us</a>
+      <a href="contact_us.html">Contact us</a>
+      
+    </div>
+    <div id="main">
+      <!--style="color:brown;"-->
+      <h1 >Guide to become an Architect</h1>
+      <hr />
+      <!--Examples of heading tags-->
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
 
-    <!--Sample iframe embedding youtube videos  -->
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/lZGsTDOUOyk?si=6FHHSkWa2nZrXOua"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
+      <!--Sample iframe embedding youtube videos  -->
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/lZGsTDOUOyk?si=6FHHSkWa2nZrXOua"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
 
-    <h2>Hello Architects!</h2>
-    <p>
-      Architects are professionals trained in the science and art of building
-      design. They are responsible for the design and construction of buildings
-      and other structures that are erected and used in various settings.
-      Discovering how to become an architect and learning more about this career
-      path could help you determine if it is something you want to pursue. In
-      this article, we explain what an architect does, list what types of
-      architects there are, show how you can become one and provide the answers
-      to some frequently asked questions about this career.
-    </p>
-</br>
-<!--Embedding audios and videos-->
-    <h2>Hustler Den Architecture</h2>
-    <video width="560" height="315" controls>
-      <source src="videos/IMG_4482.mov" type="video/mov" />
-      <source src="videos/IMG_4482.mp4" type="video/mp4" />
-      <source src="videos/IMG_4482.ogg" type="video/ogg" />
-      Browser doesn't support the video.
-    </video>
-</br></br>
-    <h2>Audio with controls</h2>
-    <audio controls>
-      <source
-        src="music/Maahi Ve Full Video - Kal Ho Naa HoShah Rukh KhanSaif AliPreityUdit NarayanKaran J.mp3"
+      <h2>Hello Architects!</h2>
+      <p>
+        Architects are professionals trained in the science and art of building
+        design. They are responsible for the design and construction of buildings
+        and other structures that are erected and used in various settings.
+        Discovering how to become an architect and learning more about this career
+        path could help you determine if it is something you want to pursue. In
+        this article, we explain what an architect does, list what types of
+        architects there are, show how you can become one and provide the answers
+        to some frequently asked questions about this career.
+      </p>
+      </br>
+      <!--Embedding audios and videos-->
+      <h2>Hustler Den Architecture</h2>
+      <video width="560" height="315" controls>
+        <source src="videos/IMG_4482.mov" type="video/mov" />
+        <source src="videos/IMG_4482.mp4" type="video/mp4" />
+        <source src="videos/IMG_4482.ogg" type="video/ogg" />
+        Browser doesn't support the video.
+      </video>
+      </br></br>
+      <h2>Audio with controls</h2>
+      <audio controls>
+        <source src="music/Maahi Ve Full Video - Kal Ho Naa HoShah Rukh KhanSaif AliPreityUdit NarayanKaran J.mp3"
         type="audio/mp3"
-      />
-      Browser doesn't support the video.
-    </audio>
-</br></br>
+        />
+        Browser doesn't support the video.
+      </audio>
+    </div>
+    
+    <div id="footer">
+      
+      <a href="">Link</a>
+      <a href="">Website name</a>
+      <a href="" tagret="_blank">website name</a>
+    </div>
 
-    <a href="">Link</a>
-    <a href="">Website name</a>
-    <a href="" tagret="_blank">website name</a>
   </body>
 </html>

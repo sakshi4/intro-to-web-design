@@ -4,60 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
+    <!--Internal CSS
+    <style>
+      h2 {
+        color: darkslategrey;
+        text-decoration: underline;
+      }
+      h1,
+      h2 {
+        font-style: italic;
+      }
+      p {
+        font-family: "Courier New", Courier, monospace;
+      }
+    </style>-->
+    <!--External Style sheet-->
+    <link rel="stylesheet " href="stylesheets/site.css" />
+
   </head>
 
   <body>
-    <a href="index.html">Home</a>
-    <a href="about_us.html">About Us</a>
-    <a href="contact_us.html">Contact us</a>
-    <h1 style="color:brown;">Contact Us</h1>
+    
+    <header>
+      <div id="header">
+        <p> Weather Update</p>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="contact_us.html">Contact us</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact Us</h1>
     <hr />
-    <table>
-      <tr>
-        <th>Logo</th>
-        <th>Location</th>
-        <th>Opening Hours</th>
-        <th>Email address</th>
-        <th>Phone</th>
-      </tr>
-      <tr>
-        <td><img src="" alt="Logo" /></td>
-        <td>Bangalore</td>
-        <td>9AM-4PM</td>
-        <td>tedburner@architect.com</td>
-        <td>1856923422</td>
-      </tr>
-      <tr>
-        <td><img src="" alt="Logo" /></td>
-        <td>Gurgaon</td>
-        <td>10AM-3PM</td>
-        <td>katyperry@architect.com</td>
-        <td>1834622890</td>
-      </tr>
-      <tr>
-        <td><img src="" alt="Logo" /></td>
-        <td>London</td>
-        <td>2PM-8PM</td>
-        <td>anthonywell@architect.com</td>
-        <td>1800234876</td>
-      </tr>
-    </table>
+
+    <article>
+      <table>
+        <tr>
+          <th>Logo</th>
+          <th>Location</th>
+          <th>Opening Hours</th>
+          <th>Email address</th>
+          <th>Phone</th>
+        </tr>
+        <tr>
+          <td><img class="logo" src="image/image3.jpg" alt="Logo" /></td>
+          <td>Bangalore</td>
+          <td>9AM-4PM</td>
+          <td>tedburner@architect.com</td>
+          <td>1856923422</td>
+        </tr>
+        <tr>
+          <td><img class="logo" src="image/image3.jpg" alt="Logo" /></td>
+          <td>Gurgaon</td>
+          <td>10AM-3PM</td>
+          <td>katyperry@architect.com</td>
+          <td>1834622890</td>
+        </tr>
+        <tr>
+          <td><img class="logo" src="image/image3.jpg" alt="Logo" /></td>
+          <td>London</td>
+          <td>2PM-8PM</td>
+          <td>anthonywell@architect.com</td>
+          <td>1800234876</td>
+        </tr>
+      </table>
+    </article>
+    
     <h2>General Enquiries</h2>
-    <form action="confirmation.html">
-      <label for="fullname">Name: *</label>
-      <input required type="text" id="fullname" name="fullname" />
-    </br></br>
-      <label for="emailaddress">Email address: *</label>
-      <input required type="email" id="emailaddress" name="emailaddress" />
-    </br></br>
-      <label>Are you employed?</label>
-      <input type="radio" value="Y" />Yes <input type="radio" value="N" />No
-    </br></br>
-      <label for="inquiry">State your inquiry: *</label>
-    </br>
-      <textarea required cols="50" rows="5" maxlength="200" id="inquiry" name="inquiry"></textarea>
-    </br></br>
-      <input type="submit" />
-    </form>
+    <article>
+      <form action="confirmation.html">
+        <label for="fullname">Name: *</label>
+        <input required type="text" id="fullname" name="fullname" />
+      </br></br>
+        <label for="emailaddress">Email address: *</label>
+        <input required type="email" id="emailaddress" name="emailaddress" />
+      </br></br>
+        <label>Are you employed?</label>
+        <input type="radio" value="Y" />Yes <input type="radio" value="N" />No
+      </br></br>
+        <label for="inquiry">State your inquiry: *</label>
+      </br></br>
+        <textarea required cols="50" rows="5" maxlength="200" id="inquiry" name="inquiry"></textarea>
+      </br></br>
+        <input type="submit" style="background-color: black; color: antiquewhite; padding: 8px;"/>
+      </form>
+    </article>
+    
+    </main>
+    <footer>
+      <a href="">Link</a>
+      <a href="">Website name</a>
+      <a href="" tagret="_blank">website name</a>
+    </footer>
   </body>
 </html>
